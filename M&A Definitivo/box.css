@@ -1,0 +1,83 @@
+.container-box {
+    display: grid;
+    padding: 50px;
+    gap: 10px;
+    background-color: rgb(249, 249, 249);
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas:
+    'box-1 box-2 box-3'
+    'box-4 box-5 box-6';
+}
+
+.box {
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 1px 2px 10px black;
+    background-color: rgb(255, 255, 255);
+}
+
+.box-1 {
+    grid-area: box-1;
+}
+
+.box-2 {
+    grid-area: box-2;
+}
+
+.box-3 {
+    grid-area: box-3;
+}
+.box-4 {
+    grid-area: box-4;
+}
+.box-5 {
+    grid-area: box-5;
+}
+.box-6 {
+    grid-area: box-6;
+}
+
+.foto {
+    width: 100%;
+    max-height: 300px;
+    display: inline;
+}
+
+.foto:hover {
+    padding: 2px;
+    transition: 0.2s;
+    filter: brightness(0.9);
+}
+
+.legenda-box {
+    background-color: #0d1725;
+    color: #fff;
+    padding: 5px;
+    width: 100%;
+}
+
+.legenda {
+    color: rgb(209, 209, 209);
+}
+
+.link-legenda-box {
+    text-align: end;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.link-legenda-box a {
+    display: inline-block;
+    margin-right: 10px;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 7px;
+    border-radius: 20px;
+}
+
+.link-legenda-box a:hover {
+    background-color: #fff;
+    color: #1b1b1c;
+    transition: 0.3s;
+    font-weight: bold;
+}
